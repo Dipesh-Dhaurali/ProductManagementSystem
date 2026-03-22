@@ -13,8 +13,9 @@
   <body class="bg-light">
 
     <!-- Header -->
-    <div class="bg-dark py-3 mb-4 shadow">
-      <h3 class="text-white mx-4">Product Management</h3>
+    <div class="bg-dark py-3 mb-4 shadow d-flex justify-content-between align-items-center flex-wrap gap-2 px-4">
+      <h3 class="text-white mb-0">Product Management</h3>
+      <a href="{{ url('/') }}" class="btn btn-outline-light btn-sm">Home</a>
     </div>
 
     <div class="container py-4">
